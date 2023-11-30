@@ -16,8 +16,8 @@ app.get('/', (requisicao, resposta) => {
 const conexao = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "root",
-    database: "todoapp",
+    password: "mel10051804",
+    database: "todo-app",
     port: 3306
 })
 
